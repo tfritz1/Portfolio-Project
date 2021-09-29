@@ -1,0 +1,75 @@
+/* Box-Sizing */
+*{
+  box-sizing: border-box;
+}
+
+/* h1 formatting*/
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 45px;
+  padding: 25px;
+  margin-bottom: 0px;
+}
+
+
+h3{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Centers text*/
+.text-center{
+  text-align: center; 
+}
+
+/* Creates dark background for header and footer*/
+.dark-background{
+  background-color: #343a40 ;
+  color: #e9ecef;
+}
+
+
+.wrapper{
+  margin:auto;
+  width:300px;
+}
+
+/* Centers and changes size of picture*/
+.center{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  height: 175px;
+}
+
+
+body{
+  margin: auto;
+  background-color:#e9ecef ;
+}
+
+
+p{
+  font-family: Arial, Helvetica, sans-serif
+  color: #212529;
+  margin:25px;
+  color: #343a40;
+}
+
+
+h2{
+  color:#343a40;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Styled links with pseudo-classes*/
+a:link{color:blue}
+a:visited{color:purple}
+a:hover{color:darkblue}
+a:active{color:lightblue}
+
+/*Creates more space between content and border*/
+footer p{
+  color: #e9ecef;
+  padding: 15px;
+}
